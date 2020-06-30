@@ -7,8 +7,7 @@ inp.on("line", (data) => {
  userInput.push(data);
 });
 inp.on("close", () => {
-
-//a,b,c three sidesv of triangle    
+    
 var actualCost= +userInput[0];
 var soldCost= +userInput[1];
 
