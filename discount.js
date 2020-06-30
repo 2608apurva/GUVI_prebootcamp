@@ -15,7 +15,7 @@ var soldCost= +userInput[1];
 if (actualCost <=0 || soldCost <=0){
     return;
 }
-var discount= (actualCost-soldCost)/actualCost;
+var discount= actualCost-soldCost;
 
 console.log(discount);
 
